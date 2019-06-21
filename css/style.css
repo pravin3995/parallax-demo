@@ -1,7 +1,11 @@
 body {
 	font-family: roboto;
 }
-
+.bg-nav{
+  background:rgba(0,0,0,0.88); 	
+  padding: 25px 0 30px 0;
+  z-index: 1;
+}
 .img-border{
   height: 400px;
   width: 400px;
@@ -102,7 +106,7 @@ About start here
 }
 .languages  li {
   display: inline-block;
-  margin:0 10px 10px 10px;
+  margin:0 8px 15px 10px;
 }
 .languages li span {
   border: 1px solid #0bceaf;
@@ -115,7 +119,7 @@ About start here
     color: #d3d1d1;
 }
 .about .row {
-	padding: 100px 0;
+	padding: 100px 0;	
 }
 
 /*=================================
@@ -130,7 +134,7 @@ About start here
 	}
 	.heading-info h2 {
 		font-size: 45px;
-		padding-top: 10px;
+		padding-top: 20px;
 	}
 	.information {
 		padding-top: 10px;
@@ -150,7 +154,7 @@ About start here
 		width: 320px;
 	}
 	.img-color-overlay .row {
-		padding: 110px 0;
+		padding: 100px 0 60px 0;
 	}
 	.navbar-toggler-icon i {
 		color: #fff;
@@ -159,5 +163,16 @@ About start here
 	.navbar-nav {
 		text-align: center;
 	}
+	/*=================================
+About start here
+===================================*/
+  .about .row {
+  	text-align: center;
+  }
+  .about-inner {
+  	padding-top: 20px;
+  }
  }
+
+
 
