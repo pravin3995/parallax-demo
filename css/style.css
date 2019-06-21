@@ -1,6 +1,7 @@
 body {
 	font-family: roboto;
 }
+
 .img-border{
   height: 400px;
   width: 400px;
@@ -93,6 +94,30 @@ address {
 	display: inline-block;
     font-size: 14px;
 }
+/*=================================
+About start here
+===================================*/
+.about {
+  background-color: #100E17;
+}
+.languages  li {
+  display: inline-block;
+  margin:0 10px 10px 10px;
+}
+.languages li span {
+  border: 1px solid #0bceaf;
+  padding: 4px 10px;
+  border-radius: 4px
+}
+.about-inner p {
+	font-size: 14px;
+    letter-spacing: .5px;
+    color: #d3d1d1;
+}
+.about .row {
+	padding: 100px 0;
+}
+
 /*=================================
   Mediaquery
 ====================================*/
