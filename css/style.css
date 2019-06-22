@@ -101,19 +101,22 @@ address {
 /*=================================
 About start here
 ===================================*/
-.about {
+.bg-color {
   background-color: #100E17;
+}
+.heading-color {
+  color: #d3d1d1;
 }
 .languages  li {
   display: inline-block;
-  margin:0 8px 15px 10px;
+  margin:0 0 15px 5px;
 }
 .languages li span {
   border: 1px solid #0bceaf;
   padding: 4px 10px;
   border-radius: 4px
 }
-.about-inner p {
+.description {
 	font-size: 14px;
     letter-spacing: .5px;
     color: #d3d1d1;
@@ -122,7 +125,75 @@ About start here
 .about .row {
 	padding: 100px 0;	
 }
+/*=================================
+  Services Start here
+===================================*/
+.services {
+	background-color: #100e17;
+}
+.inner-bg-color {
+	background-color: #1E1E24;
+}
+.services  .row {
+	padding: 100px 0;	
+}
+.mb-60 {
+	margin-bottom: 60px;
+}
+.box-shadow{
+  padding: 20px;
+  box-shadow: -1rem 0 3rem #000;
+  margin-bottom: 20px;
+}
+.service-item i {
+	font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+.purple-color {
+	color:#9774fa;	
+}
+.iron-color {
+	color: #ed7256
+}
+/*=================================
+ Conatct page start here
+===================================*/
+.cnt-page .map-image {
+    background-image: url(../images/map-color-overlay.png);
+    }
+.cnt-page a:hover {
+  color: #0bceaf;
+  transition: all 0.4s ease-in-out;
+}
+.cnt-page .fas {
+	text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 20px;
+    border-color: #0bceaf;
+    color: #d3d1d1;
+}
+ .address-info{
+	padding-left: 40px;
+}
+[placeholder] {
+	background-color: transparent;	
+	margin-bottom: 20px;
+	padding: 25px;
+	font-weight: bold;
 
+}
+.cnt-message {
+	border-radius: 4px;
+	width: 100%;
+}
+.form-control {
+	background-color: transparent! important;
+}
 /*=================================
   Mediaquery
 ====================================*/
