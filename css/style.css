@@ -194,6 +194,15 @@ About start here
 .form-control {
 	background-color: transparent! important;
 }
+.btn {
+	background-color: #0bceaf;
+	width: 100%
+}
+.cnt-page button {
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
 /*=================================
   Mediaquery
 ====================================*/
