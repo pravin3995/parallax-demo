@@ -194,7 +194,7 @@ About start here
 .form-control {
 	background-color: transparent! important;
 }
-.btn {
+.cnt-page .btn {
 	background-color: #0bceaf;
 	width: 100%
 }
@@ -202,6 +202,9 @@ About start here
   border-radius: 20px;
   color: #fff;
   margin-bottom: 20px;
+}
+footer .text-left {
+	padding: 18px;
 }
 /*=================================
   Mediaquery
