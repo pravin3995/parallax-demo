@@ -1,6 +1,10 @@
 body {
-	font-family: roboto;
+  font-family: roboto;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-nav{
   background:rgba(0,0,0,0.88); 	
   padding: 25px 0 30px 0;
@@ -123,7 +127,7 @@ About start here
     line-height: 27px;
 }
 .about .row {
-	padding: 100px 0;	
+	padding: 100px 0 0 0;	
 }
 /*=================================
   Services Start here
@@ -157,6 +161,124 @@ About start here
 	color: #ed7256
 }
 /*=================================
+  Services end here
+===================================*/
+/*=================================
+  Skill Start here
+===================================*/
+.info{
+  display: flex;
+}
+.name {
+	flex: 50%;
+}
+.per-num {
+	flex: 50%;
+	text-align:right;
+}
+.name, .per-num {
+  color: #D3D1D1;
+}
+.progress {
+  border-radius: 2.25rem;
+  height: 7px;
+}
+.progress-bar {	
+  background: #0bceaf;
+  width: 70%;
+}
+.skill-inner {
+	margin-bottom: 20px;
+}
+.skill {
+	padding-bottom: 100px;
+}
+/*=================================
+  Skill end here
+===================================*/
+/*=================================
+  Porfolio start here
+===================================*/
+.portfolio-nav ul li span {
+  padding: 15px 0;
+  border-bottom: 2px solid transparent;
+  color: #d3d1d1;
+}
+.portfolio-nav ul li {
+  margin: 10px 30px;
+}
+.portfolio-gallery figure {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  top: auto;
+  left: 0;
+  color: #fff;
+  bottom: 0;
+ /* z-index: 10;*/
+  transition: 0.5s;
+}
+figcaption:hover {
+  background: rgba(11, 206, 175, 0.9);
+}
+.sub-title {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  font-size: 13px;
+  top: 50%;
+  margin-top: 30px;
+}
+.portfolio-title {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  top: 50%;
+  margin-top: 30px;
+  margin-top: -2px
+}
+figcaption i {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  top: 45%;
+  margin-top: -22px;
+}
+figcaption {
+	display: none;
+}
+figure:hover figcaption {
+	display: block;
+}
+
+/*=================================
+  Porfolio end here
+===================================*/
+
+
+/*=================================
  Conatct page start here
 ===================================*/
 .cnt-page .map-image {
@@ -185,6 +307,7 @@ About start here
 	margin-bottom: 20px;
 	padding: 25px;
 	font-weight: bold;
+	color: #6C756D;
 
 }
 .cnt-message {
@@ -192,11 +315,11 @@ About start here
 	width: 100%;
 }
 .form-control {
-	background-color: transparent! important;
+  background-color: transparent! important;
 }
 .cnt-page .btn {
-	background-color: #0bceaf;
-	width: 100%
+  background-color: #0bceaf;
+  width: 100%
 }
 .cnt-page button {
   border-radius: 20px;
@@ -204,7 +327,16 @@ About start here
   margin-bottom: 20px;
 }
 footer .text-left {
-	padding: 18px;
+  padding: 18px;
+}
+.social-link ul li a {
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+input[type="text"], textarea {
+outline: none;
+box-shadow:none !important;
+border:1px solid #ccc !important;
 }
 /*=================================
   Mediaquery
@@ -250,23 +382,22 @@ footer .text-left {
 	/*=================================
      About start here
      ===================================*/
-  .about .row {
-  	text-align: center;
-  }
-  .about-inner {
-  	padding-top: 20px;
-  }
+     .about .row {
+  	    text-align: center;
+    }
+     .about-inner {
+    	padding-top: 20px;
+    }
 
  /*==================================\
   Contact page
  ====================================*/
-.d-flex {
-	display: block !important;
-	text-align: center;
- }
- .address-info {
- 	padding: 15px 0;
-
- }
+    .d-flex {
+       display: block !important;
+	   text-align: center;
+    }
+    .address-info {
+       padding: 15px 0;
+    }
 }
 
