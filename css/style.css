@@ -4,7 +4,27 @@ body {
 html {
   scroll-behavior: smooth;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0BCEAF; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
 .bg-nav{
   background:rgba(0,0,0,0.88); 	
   padding: 25px 0 30px 0;
@@ -207,10 +227,18 @@ About start here
 .portfolio-nav ul li {
   margin: 10px 30px;
 }
+
+.portfolio .column{
+  flex: 25%
+}
 .portfolio-gallery figure {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  margin: 0;
+}
+.portfolio .column div {
+	margin: 20px 15px 30px 10px;
 }
 figcaption {
   position: absolute;
@@ -388,7 +416,16 @@ border:1px solid #ccc !important;
      .about-inner {
     	padding-top: 20px;
     }
+/*==================================\
+  Portfolkio Start here
+ ===================================*/
+ .portfolio .portfolio-gallery .row {
+ 	display: block;
+ }
 
+ /*==================================\
+  Portfolio end here
+ ===================================
  /*==================================\
   Contact page
  ====================================*/
