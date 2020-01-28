@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  	<link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/style.css">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.0/rellax.min.js"></script>
 </head>
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
 <main>
@@ -16,13 +17,13 @@
 			<div class="row">
 				<nav class="navbar navbar-expand-md fixed-top">
 					<a class="navbar-brand" href="#">
-  	  					<img src="images/logo4.png">
+  	  					<img src="images/logo4.png" class="">
   	  	            </a>
   	  	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
    						<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
   					</button>
   					<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">		
-		  				<ul class="navbar-nav">
+		  				<ul class="navbar-nav " data-scroll>
   	  		               <li class="nav-item">
   	  		               	<a href="#" class="nav-link active">Home</a>
   	  		               </li>
@@ -54,13 +55,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-lg-6 content-reverse">
-						<div class="heading-info">
+						<div class="heading-info rellax" data-rellax-speed="1" data-scroll>
 							<div class="promo">
 								<span class="text-white">Hello I'm</span>
 							</div>
 							<h2 class="text-white">Pravin Jadhav</h2>
 							<h4 class="text-white">Web Designer</h4>
-							<ul class="list-unstyled information">
+							<ul class="list-unstyled information rellax" data-rellax-speed="1" >
 								<li>
 									<i class="fas fa-envelope icon"></i>
 									<a href="mailto:pravinjadhav771@gmail.com" target="_blank">pravinjadhav771@gmail.com</a>
@@ -100,7 +101,7 @@
 					</div>
 					<div class="col-sm-12 col-lg-6 image-reverse">
 						<div class="hero-img">
-							<div class="img-border">
+							<div class="img-border rellax"  data-rellax-speed="7">
 								<img src="images/pics.png" class="img-fluid">
 							</div>
 						</div>
@@ -112,19 +113,19 @@
 	</section>
 	<!-- Bannr end here -->
 	<!-- About 	start here -->
-	<section class="about bg-color" id="about">
+	<section class="about bg-color " id="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-6">
-					<div class="about-img">
-						<img src="images/ab-img.png" width="100%">
+					<div class="about-img "  >
+						<img src="images/ab-img.png"  class="rellax"  data-rellax-speed="6" data-rellax-percentage=".6"  width="100%">
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6"">
-					<div class="about-inner">
-						<h2 class="heading-color">About Me</h2>
-						<p class="description">	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-						<div class="about-lang">
+				<div class="col-sm-12 col-md-6">
+					<div class="about-inner  rellax" data-rellax-speed=".1" data-rellax-percentage="5">
+						<h2 class="heading-color " data-scroll>About Me</h2>
+						<p class="description " data-scroll>	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+						<div class="about-lang "  >
 							<ul class="list-unstyled text-white languages">
 								<li>
 									<span>html5</span>
@@ -161,20 +162,20 @@
 	</section>
 	<!-- About end here -->
 	<!-- Services start here -->
-	<section class="services bg-color" id="services">
+	<section class="services bg-color " id="services">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-center heading-color mb-60">What I do</h2>
+			<div class="row  ">
+				<div class="col-md-12 ">
+					<h2 class="text-center heading-color mb-60 rellax" data-rellax-percentage=".4"  data-rellax-speed="-2">What I do</h2>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 rellax" data-rellax-percentage=".2" data-rellax-speed="2">
 					<div class="service-item inner-bg-color box-shadow">
 						<i class="fas fa-bullseye purple-color"></i>
 						<h3 class="heading-color">UI Design</h3>
 						<p class="description" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 rellax" data-rellax-percentage=".2" data-rellax-speed="2" >
 					<div class="service-item inner-bg-color box-shadow">
 						<i class="fas fa-code iron-color"></i>
 						<h3 class="heading-color">Web Development</h3>
@@ -188,10 +189,10 @@
 	<!-- Skill Start here -->
 	<section class="skill bg-color" id="skill">
 		<div class="container">
-			<h2 class="text-center heading-color mb-60">Skill</h2>
+			<h2 class="text-center heading-color mb-60 rellax"  data-rellax-percentage=".5"  data-rellax-speed="-2">Skill</h2>
 			<div class="row justify-content-center">
-				<div class="col-sm-12 col-md-6">
-					<div class="skill-inner">
+				<div class="col-sm-12 col-md-6 rellax" data-rellax-percentage=".2"  data-rellax-speed="1">
+					<div class="skill-inner ">
 						<div class="each-skill">
 							<div class="progressbar-info">
 								<div class="info">
@@ -265,10 +266,10 @@
 	<section class="portfolio bg-color" id="portfolio">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-center heading-color mb-60">Recent Portfolio</h2>
+				<div class="col-md-12" >
+					<h2 class="text-center heading-color mb-60 rellax" data-rellax-percentage=".6">Recent Portfolio</h2>
 				</div>
-				<div class="portfolio-nav col-sm-12 ">
+				<div class="portfolio-nav col-sm-12 rellax" data-rellax-percentage=".5">
 					<ul class="nav justify-content-center">
 						<li>
 							<span>All Categories</span>
@@ -396,14 +397,14 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2 class="heading-color text-center mb-60">Contact Me</h2>
+					<h2 class="heading-color text-center mb-60 rellax" data-rellax-percentage=".4">Contact Me</h2>
 				</div>
 				<div class="col-sm-12 map-image cnt-image-bg">
 					<div class="container mt-30">
 						<div class="row">
 							<div class="col-sm-12 col-md-6">
 								<div class="col-sm-12">
-									<div class="inner-bg-color box-shadow d-flex">
+									<div class="inner-bg-color box-shadow d-flex rellax" data-rellax-speed="0" data-scroll>
 										<div class="address-icon">
 											<i class="fas fa-location-arrow"></i>
 										</div>
@@ -527,6 +528,21 @@
     }
     })
     }); 
+  </script>
+  <script>
+	// Accepts any class name
+	var rellax = new Rellax('.rellax');
+  </script>
+  <script>
+	// Also can pass in optional settings block
+	var rellax = new Rellax('.rellax', {
+	  speed: -2,
+	  center: false,
+	  wrapper: null,
+	  round: true,
+	  vertical: true,
+	  horizontal: false
+	});
   </script>
 </body>
 </html>

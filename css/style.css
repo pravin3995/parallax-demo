@@ -311,6 +311,7 @@ figure:hover figcaption {
 ===================================*/
 .cnt-page .map-image {
     background-image: url(../images/map-color-overlay.png);
+    background-attachment: fixed;
     }
 .cnt-page a:hover {
   color: #0bceaf;
@@ -365,6 +366,16 @@ input[type="text"], textarea {
 outline: none;
 box-shadow:none !important;
 border:1px solid #ccc !important;
+}
+
+[data-scroll] {
+  transition: ease-in 3s;
+}
+[data-scroll="in"]{
+  transform: translateY(200px);
+}
+[data-scroll="out"]{
+  transform: translateY(0);
 }
 /*=================================
   Mediaquery
